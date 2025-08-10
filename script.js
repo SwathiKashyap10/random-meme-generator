@@ -7,12 +7,23 @@ meme.crossOrigin = "anonymous";
 
 function fetchMeme() {
     generateBtn.innerText = "Loading a meme......"
+    // fetch("https://meme-api.com/gimme")
+    //     .then((res) => res.json())
+    //     .then((result) => {
+    //         meme.setAttribute("src", result.url);
+    //         generateBtn.innerText = "Generate New Meme";
+    //     });
     fetch("https://meme-api.com/gimme")
-        .then((res) => res.json())
-        .then((result) => {
+    .then(res => res.json())
+    .then(result => {
+        if (result.url.includes("i.redd.it")) {
+            fetchMeme(); // Try again if blocked source
+        } else {
             meme.setAttribute("src", result.url);
             generateBtn.innerText = "Generate New Meme";
-        });
+        }
+    });
+
 }
 
 generateBtn.addEventListener("click", fetchMeme);
