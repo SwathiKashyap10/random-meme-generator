@@ -24,4 +24,4 @@ With a single click, you can:
 
 ## 🚀 Live Demo
 
-🔗 [View Live Project](https://yourusername.github.io/random-meme-generator/) *(Update with your actual link)*
+🔗 [View Live Project](https://swathikashyap10.github.io/random-meme-generator/)
