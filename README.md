@@ -5,12 +5,10 @@ This app fetches memes from the [Meme API](https://meme-api.com/gimme) and displ
 
 With a single click, you can:
 - Generate a random meme
-- Take a screenshot of the meme to save or share anywhere
 
 ## ✨ Features
 
 - **Random Meme Generation** — Click the "Generate New Meme" button to instantly fetch and display a random meme.  
-- **Take Screenshot** — Capture the meme as an image and save it locally for sharing.  
 - **Responsive Design** — Works smoothly on both desktop and mobile devices.
 
 ---
@@ -27,5 +25,3 @@ With a single click, you can:
 ## 🚀 Live Demo
 
 🔗 [View Live Project](https://yourusername.github.io/random-meme-generator/) *(Update with your actual link)*
-
----
