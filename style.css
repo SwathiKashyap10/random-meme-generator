@@ -42,12 +42,6 @@ h1 {
   border: 2px solid #3B82F6;
 }
 
-.btns {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
 button {
   background-color: #3B82F6;
   color: white;
@@ -58,4 +52,3 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
